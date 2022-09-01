@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43382" started-at="2022-08-04T12:25:46 IST" finished-at="2022-08-04T12:26:29 IST">
+    <groups>
+    </groups>
+    <test name="validating Log With different data" duration-ms="43382" started-at="2022-08-04T12:25:46 IST" finished-at="2022-08-04T12:26:29 IST">
+      <class name="academy.HomePageTest">
+        <test-method status="PASS" signature="initilizeandlaunch()[pri:0, instance:academy.HomePageTest@3e0e1046]" name="initilizeandlaunch" is-config="true" duration-ms="3112" started-at="2022-08-04T12:25:46 IST" finished-at="2022-08-04T12:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeandlaunch -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@3e0e1046]" name="basepagenavigation" duration-ms="22355" started-at="2022-08-04T12:25:49 IST" data-provider="getdata" finished-at="2022-08-04T12:26:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@3e0e1046]" name="basepagenavigation" duration-ms="17724" started-at="2022-08-04T12:26:11 IST" data-provider="getdata" finished-at="2022-08-04T12:26:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahesh@8798]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="TeardownEnv()[pri:0, instance:academy.HomePageTest@3e0e1046]" name="TeardownEnv" is-config="true" duration-ms="66" started-at="2022-08-04T12:26:29 IST" finished-at="2022-08-04T12:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownEnv -->
+      </class> <!-- academy.HomePageTest -->
+    </test> <!-- validating Log With different data -->
+  </suite> <!-- Suite -->
+</testng-results>

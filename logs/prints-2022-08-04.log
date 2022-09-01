@@ -1,0 +1,6 @@
+12:26:10.360 [TestNG-tests-1] INFO  academy.HomePageTest - Navigate to HomePage
+12:26:11.278 [TestNG-tests-1] INFO  academy.HomePageTest -  succesfully Clicked on link of login
+12:26:11.348 [TestNG-tests-1] INFO  academy.HomePageTest - succesfully send EmailId
+12:26:11.403 [TestNG-tests-1] INFO  academy.HomePageTest - succesfully send Password
+12:26:11.639 [TestNG-tests-1] INFO  academy.HomePageTest - succesfully clicked login button
+12:26:28.730 [TestNG-tests-1] INFO  academy.HomePageTest - Navigate to HomePage
